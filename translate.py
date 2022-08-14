@@ -19,7 +19,7 @@ for i in game.readlines():
         #print(tempStr,j.split("\t")[0])
         if tempStr == j.split("\t")[0]:
             # print(tempStr)
-            tempStr += " " + j.split("\t")[1]
+            tempStr += "\t" + j.split("\t")[1]
             newdoc.writelines(tempStr)
             break
     else:
